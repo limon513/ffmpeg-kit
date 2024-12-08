@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export ANDROID_SDK_ROOT="/home/omen/Android/Sdk"
+export ANDROID_NDK_ROOT="/home/omen/Downloads/android-ndk-r25c"
+
 if [[ -z ${ANDROID_SDK_ROOT} ]]; then
   echo -e "\n(*) ANDROID_SDK_ROOT not defined\n"
   exit 1
